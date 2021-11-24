@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+
+
+    &-item {
+        flex-grow: 1;
+
+        &_link {
+            display: block;
+            text-align: center;
+            padding: 8px;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+                background-color: black;
+            }
+        }
+    }
+}
